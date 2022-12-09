@@ -1,0 +1,39 @@
+.footer {
+    box-sizing: border-box;
+    max-width: 68%;
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.footer__copyright {
+    margin: 0;
+    padding: 0;
+    max-width: 318px;
+    color: #545454;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.21;
+}
+
+@media screen and (min-width: 611px) and (max-width: 900px) {
+    .footer {
+        max-width: 90%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 610px) {
+    .footer {
+        max-width: 100%;
+        padding-top: 7%;
+        padding-bottom: 7%;
+    }
+    .footer__copyright {
+        height: 14px;
+        max-width: 288px;
+        font-size: 14px;
+    }
+}
